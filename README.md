@@ -1,150 +1,73 @@
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/4795db0e-0756-4ed4-b3c1-c554ae3860bb" width="24%" />
-  <img src="https://github.com/user-attachments/assets/ef9adffd-33aa-40b8-baab-fa4544fcf4e9" width="24%" />
-  <img src="https://github.com/user-attachments/assets/ad170f78-83ae-41a1-9664-a9fccb4690c7" width="24%" />
-  <img src="https://github.com/user-attachments/assets/4ef3c320-6627-4cd2-a0fc-b30474f80a2f" width="24%" />
-</p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/2edbd7a7-42f0-4083-b75c-3f011227a6ad" width="24%" />
-  <img src="https://github.com/user-attachments/assets/ad103556-e922-4b22-b3d2-0b9109eab7b4" width="24%" />
-  <img src="https://github.com/user-attachments/assets/254f8900-168a-405f-bca5-6183825e6d5d" width="24%" />
-</p>
+# Welcome to your Lovable project
 
-# 🚀 TradeAgent
+## Project info
 
-### AI-Powered Trading Analysis Dashboard
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
-TradeAgent is a modern AI-driven trading dashboard that provides real-time analysis for **Crypto, Global Stocks, Indian Markets, and Major Indices** like **Nifty 50 and Sensex**.
+## How can I edit this code?
 
-It combines live market data with intelligent AI analysis to deliver actionable trading insights in a clean, professional trading interface.
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 📌 Features
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-* 📊 Interactive price charts (Candlestick / Line)
-* 📈 Technical indicators (RSI, MACD, SMA, EMA)
-* 🇮🇳 Indian markets (Nifty 50, Sensex, NSE stocks)
-* 🌍 Global stocks support
-* ₿ Crypto market tracking
-* 🤖 AI-powered trading insights (Buy / Hold / Sell)
-* 📉 Support & resistance detection
-* 📁 Watchlist & portfolio tracking
-* ⚡ Fast Vite + React performance
+Changes made via Lovable will be committed automatically to this repo.
 
----
+**Use your preferred IDE**
 
-## 🛠 Tech Stack
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-* **React + TypeScript**
-* **Vite**
-* **Tailwind CSS**
-* **Lucide Icons**
-* **Supabase (optional backend)**
-* **AI Integration for analysis**
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
----
+Follow these steps:
 
-## 📂 Project Structure
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-```
-TradeAgent
- ├── src/
- ├── public/
- ├── supabase/
- ├── package.json
- ├── vite.config.ts
- ├── tailwind.config.ts
- ├── index.html
- └── README.md
-```
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
----
+# Step 3: Install the necessary dependencies.
+npm i
 
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
-
-```bash
-git clone https://github.com/your-username/TradeAgent.git
-cd TradeAgent
-```
-
-### 2️⃣ Install dependencies
-
-```bash
-npm install
-```
-
-### 3️⃣ Run the development server
-
-```bash
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-Open in browser:
+**Edit a file directly in GitHub**
 
-```
-http://localhost:8080
-```
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
----
+**Use GitHub Codespaces**
 
-## 🔐 Environment Variables
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Create a `.env` file in the root directory:
+## What technologies are used for this project?
 
-```
-VITE_API_KEY=your_api_key_here
-VITE_SUPABASE_URL=your_supabase_url_here
-VITE_SUPABASE_ANON_KEY=your_supabase_key_here
-```
+This project is built with:
 
-⚠️ Do NOT upload your `.env` file to GitHub.
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
----
+## How can I deploy this project?
 
-## 🚀 Deployment
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
-You can deploy easily using:
+## Can I connect a custom domain to my Lovable project?
 
-* **Vercel**
-* **Netlify**
-* **Render**
-* **GitHub Pages (with build)**
+Yes, you can!
 
-To build for production:
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-```bash
-npm run build
-```
-
----
-
-## 📸 Demo
-
-Add your demo video link here:
-
-```
-Live Demo: https://your-demo-link.com
-```
-
----
-
-## 🎯 Future Improvements
-
-* Real-time WebSocket data streaming
-* Advanced backtesting engine
-* TradingView chart integration
-* Broker API integration
-* AI risk management system
-
----
-
-## 👨‍💻 Author
-
-**Aamir Shaikh**
-AI & Full Stack Developer
-
----
-
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
